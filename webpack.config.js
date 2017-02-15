@@ -120,7 +120,8 @@ module.exports = {
     ],
     extensions: ['', '.js', '.css', '.scss', '.vue'],
     alias: {
-      'vue$': 'vue/dist/vue.common.js'
+      'vue$': 'vue/dist/vue.common.js',
+      'img': path.join(__dirname, './src/img'),
     }
   },
   devServer: {
